@@ -1,0 +1,29 @@
+* {
+    padding: 0% ;
+    margin:0% ;
+}
+.html, body
+{
+ display: grid;   
+ place-items: Center;
+background-image: url(8.jpg) ;
+background-repeat: no-repeat;
+  background-size: 1500px 1400px;
+  color: azure;
+}
+
+.h1
+{ 
+  background-color: blue;
+  margin: 15%;
+  padding: 15%;
+  width: 1220;
+}
+Div.A
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: blue;
+}

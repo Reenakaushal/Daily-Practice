@@ -1,0 +1,37 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.menu-bar
+{
+    background-color:palevioletred;
+    text-align: center;
+}   
+.menu-bar ul 
+{
+    display: inline-flex;
+    color: blue;
+    list-style: none;
+}
+.menu-bar ul li
+{
+    margin: 15px;
+    padding: 15px;
+    width: 120px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: beige;
+}
+.active, .menu-bar ul li :hover
+{
+ background: 2bab0d;
+ border-radius: 3px;
+}
